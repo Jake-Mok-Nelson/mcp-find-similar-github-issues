@@ -14,9 +14,9 @@ npm install
 export GITHUB_TOKEN=your_github_personal_access_token
 ```
 
-3. Run the server:
+3. Build the server:
 ```
-npm start
+npm run build
 ```
 
 #### Integrating with Claude:
