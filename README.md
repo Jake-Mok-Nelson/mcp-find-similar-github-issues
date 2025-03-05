@@ -54,7 +54,6 @@ Finds GitHub issues similar to a given description.
 **Parameters:**
 - `owner`: GitHub repository owner/organization
 - `repo`: GitHub repository name
-- `issueTitle`: Title of the issue to find similar ones for
 - `issueDescription`: Description of the issue to find similar ones for
 - `maxResults`: Maximum number of similar issues to return (default: 5)
 
