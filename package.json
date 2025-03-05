@@ -1,0 +1,35 @@
+{
+  "name": "support-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "An MCP server that helps support engineers find similar GitHub issues to speed up troubleshooting.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "bin": {
+    "weather": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-Mok-Nelson/mcp-find-similar-github-issues.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jake-Mok-Nelson/mcp-find-similar-github-issues/issues"
+  },
+  "homepage": "https://github.com/Jake-Mok-Nelson/mcp-find-similar-github-issues#readme"
+}
